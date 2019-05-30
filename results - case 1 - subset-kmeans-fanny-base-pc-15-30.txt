@@ -1,0 +1,315 @@
+
+[1] "baseline"
+[1] "correlation"
+
+Clustering Methods:
+ kmeans fanny 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                           2       3       4       5       6       7       8       9      10      11      12
+                                                                                                            
+kmeans Connectivity   0.6361 14.2921  3.9901 13.8591 14.0591 22.7960 34.2508 35.9798 29.7540 44.8750 49.9028
+       Dunn           0.3487  0.2573  0.4051  0.3522  0.4005  0.3473  0.3092  0.3188  0.3377  0.2862  0.2862
+       Silhouette     0.2041  0.2685  0.3500  0.3689  0.3946  0.3796  0.3546  0.3490  0.3603  0.3034  0.2987
+fanny  Connectivity   0.6361      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Dunn           0.3487      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Silhouette     0.2041      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+
+Optimal Scores:
+
+             Score  Method Clusters
+Connectivity 0.6361 kmeans 2       
+Dunn         0.4051 kmeans 4       
+Silhouette   0.3946 kmeans 6       
+
+[1] "baseline"
+[1] "euclidean"
+
+Clustering Methods:
+ kmeans fanny 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                           2       3       4       5       6       7       8       9      10      11      12
+                                                                                                            
+kmeans Connectivity   0.6929 12.9187 11.5869 14.3079 28.3556 23.4782 37.8496 28.7071 30.4028 44.7742 49.6210
+       Dunn           0.5751  0.5075  0.5807  0.5920  0.4454  0.5633  0.4454  0.6017  0.5686  0.5195  0.5253
+       Silhouette     0.1207  0.1595  0.1957  0.2184  0.1938  0.2202  0.1829  0.2150  0.2102  0.1793  0.1762
+fanny  Connectivity  43.1266      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Dunn           0.3964      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Silhouette     0.0849      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+
+Optimal Scores:
+
+             Score  Method Clusters
+Connectivity 0.6929 kmeans 2       
+Dunn         0.6017 kmeans 9       
+Silhouette   0.2202 kmeans 7       
+
+[1] "baseline"
+[1] "manhattan"
+
+Clustering Methods:
+ kmeans fanny 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                           2       3       4       5       6       7       8       9      10      11      12
+                                                                                                            
+kmeans Connectivity   0.7806  3.0329  6.0881 15.8873 24.2548 27.3492 42.0516 33.0960 47.1806 52.5885 52.5885
+       Dunn           0.5538  0.5415  0.5381  0.5656  0.5379  0.5379  0.4239  0.5379  0.4407  0.4407  0.4690
+       Silhouette     0.1581  0.1677  0.1903  0.1980  0.1899  0.2097  0.1851  0.1965  0.1844  0.1797  0.1781
+fanny  Connectivity  36.6762 38.4782      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Dunn           0.3646  0.3646      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Silhouette     0.0898  0.0835      NA      NA      NA      NA      NA      NA      NA      NA      NA
+
+Optimal Scores:
+
+             Score  Method Clusters
+Connectivity 0.7806 kmeans 2       
+Dunn         0.5656 kmeans 5       
+Silhouette   0.2097 kmeans 7       
+
+[1] "pc 28"
+[1] "correlation"
+
+Clustering Methods:
+ kmeans fanny 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                           2       3       4       5       6       7       8       9      10      11      12
+                                                                                                            
+kmeans Connectivity   0.5361  2.8730  5.8020  8.2956 12.1262 21.2282 23.9460 34.8310 38.7516 35.8698 45.5845
+       Dunn           0.3767  0.3956  0.3956  0.3940  0.3940  0.1601  0.1601  0.1359  0.1359  0.1819  0.1819
+       Silhouette     0.3032  0.4051  0.4560  0.4688  0.5011  0.4806  0.4453  0.4506  0.4331  0.4363  0.4097
+fanny  Connectivity  20.3159      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Dunn           0.1700      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Silhouette     0.2693      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+
+Optimal Scores:
+
+             Score  Method Clusters
+Connectivity 0.5361 kmeans 2       
+Dunn         0.3956 kmeans 3       
+Silhouette   0.5011 kmeans 6       
+
+[1] "pc 28"
+[1] "euclidean"
+
+Clustering Methods:
+ kmeans fanny 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                           2       3       4       5       6       7       8       9      10      11      12
+                                                                                                            
+kmeans Connectivity   0.6218 12.4897 11.4448 12.3417 14.6794 24.6952 37.7976 38.4028 25.6345 38.7369 60.6032
+       Dunn           0.4720  0.4163  0.4369  0.4475  0.4475  0.3617  0.2110  0.3466  0.4977  0.2541  0.2544
+       Silhouette     0.1781  0.1974  0.2874  0.3081  0.3444  0.3369  0.2946  0.3233  0.3377  0.3043  0.2773
+fanny  Connectivity   0.6218  4.2508      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Dunn           0.4720  0.3398      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Silhouette     0.1781  0.1217      NA      NA      NA      NA      NA      NA      NA      NA      NA
+
+Optimal Scores:
+
+             Score  Method Clusters
+Connectivity 0.6218 kmeans 2       
+Dunn         0.4977 kmeans 10      
+Silhouette   0.3444 kmeans 6       
+
+[1] "pc 28"
+[1] "manhattan"
+
+Clustering Methods:
+ kmeans fanny 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                           2       3       4       5       6       7       8       9      10      11      12
+                                                                                                            
+kmeans Connectivity   1.7472  4.5179 18.4909 23.5123 23.6103 30.6159 44.5726 47.3349 64.9381 59.0254 55.3786
+       Dunn           0.3739  0.3753  0.3753  0.3676  0.3724  0.3811  0.2707  0.2868  0.1847  0.2379  0.2513
+       Silhouette     0.1305  0.1561  0.1829  0.2009  0.2047  0.2286  0.2234  0.2282  0.2201  0.2111  0.2145
+fanny  Connectivity  25.6036 10.0647      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Dunn           0.2250  0.3753      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Silhouette     0.1105  0.1307      NA      NA      NA      NA      NA      NA      NA      NA      NA
+
+Optimal Scores:
+
+             Score  Method Clusters
+Connectivity 1.7472 kmeans 2       
+Dunn         0.3811 kmeans 7       
+Silhouette   0.2286 kmeans 7       
+
+[1] "pc 15"
+[1] "correlation"
+
+Clustering Methods:
+ kmeans fanny 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                           2       3       4       5       6       7       8       9      10      11      12
+                                                                                                            
+kmeans Connectivity   0.2000  2.5730  5.4381  8.1944 11.5183 22.2794 29.1159 35.4944 35.4944 38.5929 41.0718
+       Dunn           0.3315  0.3431  0.3393  0.3256  0.3256  0.0888  0.0808  0.1099  0.1099  0.1099  0.1099
+       Silhouette     0.3319  0.4560  0.5159  0.5330  0.5621  0.5085  0.5556  0.5499  0.5014  0.4853  0.4803
+fanny  Connectivity  17.6198  7.9242 10.7817 34.0060 19.2067      NA      NA      NA      NA      NA      NA
+       Dunn           0.1311  0.0805  0.0826  0.0696  0.0804      NA      NA      NA      NA      NA      NA
+       Silhouette     0.3150  0.4492  0.4901  0.4637  0.5333      NA      NA      NA      NA      NA      NA
+
+Optimal Scores:
+
+             Score  Method Clusters
+Connectivity 0.2000 kmeans 2       
+Dunn         0.3431 kmeans 3       
+Silhouette   0.5621 kmeans 6       
+
+[1] "pc 15"
+[1] "euclidean"
+
+Clustering Methods:
+ kmeans fanny 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                           2       3       4       5       6       7       8       9      10      11      12
+                                                                                                            
+kmeans Connectivity  11.2052 10.3940 12.8496 20.2365 19.7611 20.6889 31.5302 33.3591 35.4008 38.3798 39.3833
+       Dunn           0.3863  0.4121  0.4235  0.3373  0.3466  0.3473  0.2436  0.2436  0.2436  0.2224  0.2225
+       Silhouette     0.1502  0.2507  0.2758  0.2678  0.3403  0.3983  0.3787  0.3746  0.3722  0.3668  0.3634
+fanny  Connectivity   0.5524      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Dunn           0.4427      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Silhouette     0.2161      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+
+Optimal Scores:
+
+             Score  Method Clusters
+Connectivity 0.5524 fanny  2       
+Dunn         0.4427 fanny  2       
+Silhouette   0.3983 kmeans 7       
+
+[1] "pc 15"
+[1] "manhattan"
+
+Clustering Methods:
+ kmeans fanny 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                           2       3       4       5       6       7       8       9      10      11      12
+                                                                                                            
+kmeans Connectivity  13.5429 13.1968 13.0647 13.0647 15.4619 27.3833 34.6353 40.8266 46.9706 45.9956 48.4456
+       Dunn           0.3482  0.3866  0.3475  0.3475  0.3609  0.1607  0.1768  0.1998  0.2284  0.1998  0.1998
+       Silhouette     0.1788  0.2194  0.2419  0.2804  0.3333  0.3123  0.2954  0.3074  0.2857  0.2996  0.3005
+fanny  Connectivity   3.2329      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Dunn           0.3310      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Silhouette     0.1883      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+
+Optimal Scores:
+
+             Score  Method Clusters
+Connectivity 3.2329 fanny  2       
+Dunn         0.3866 kmeans 3       
+Silhouette   0.3333 kmeans 6       
+
+There were 48 warnings (use warnings() to see them)
+
+
+[1] "som 10"
+[1] "correlation"
+
+Clustering Methods:
+ kmeans fanny 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                           2       3       4       5       6       7       8       9      10      11      12
+                                                                                                            
+kmeans Connectivity  16.4909 13.2194 24.9143 27.3976 31.1452 36.5690 44.7163 48.7782 52.4131 58.4262 59.7750
+       Dunn           0.0743  0.0743  0.0743  0.0922  0.0845  0.0854  0.0980  0.0980  0.1019  0.0903  0.1093
+       Silhouette     0.2909  0.3310  0.4107  0.4298  0.4159  0.4399  0.4456  0.4763  0.4981  0.4725  0.4947
+fanny  Connectivity  24.4425      NA 86.5155      NA      NA      NA      NA      NA      NA      NA      NA
+       Dunn           0.0441      NA  0.0210      NA      NA      NA      NA      NA      NA      NA      NA
+       Silhouette     0.2835      NA  0.1955      NA      NA      NA      NA      NA      NA      NA      NA
+
+Optimal Scores:
+
+             Score   Method Clusters
+Connectivity 13.2194 kmeans 3       
+Dunn          0.1093 kmeans 12      
+Silhouette    0.4981 kmeans 10      
+
+[1] "som 10"
+[1] "euclidean"
+
+Clustering Methods:
+ kmeans fanny 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                           2       3       4       5       6       7       8       9      10      11      12
+                                                                                                            
+kmeans Connectivity   5.7496 13.3377 24.7302 20.9278 33.6456 37.8179 46.3659 51.3778 58.9306 57.8060 64.1885
+       Dunn           0.1886  0.2378  0.1884  0.2600  0.2559  0.2125  0.2530  0.2567  0.2352  0.3263  0.2624
+       Silhouette     0.2069  0.2487  0.2567  0.2861  0.2921  0.3275  0.3088  0.3036  0.3117  0.3144  0.3237
+fanny  Connectivity  23.6210      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Dunn           0.2096      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Silhouette     0.1875      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+
+Optimal Scores:
+
+             Score  Method Clusters
+Connectivity 5.7496 kmeans 2       
+Dunn         0.3263 kmeans 11      
+Silhouette   0.3275 kmeans 7       
+
+[1] "som 10"
+[1] "manhattan"
+
+Clustering Methods:
+ kmeans fanny 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                           2       3       4       5       6       7       8       9      10      11      12
+                                                                                                            
+kmeans Connectivity   5.4567 13.4274 24.6738 20.6619 34.1190 37.1659 45.9583 51.0131 58.9067 57.7210 64.2766
+       Dunn           0.1870  0.2246  0.1816  0.2487  0.1902  0.2148  0.2410  0.2459  0.2289  0.3147  0.2584
+       Silhouette     0.2144  0.2564  0.2622  0.2912  0.3157  0.3349  0.3150  0.3092  0.3159  0.3180  0.3293
+fanny  Connectivity  25.5409      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Dunn           0.1842      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+       Silhouette     0.1945      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+
+Optimal Scores:
+
+             Score  Method Clusters
+Connectivity 5.4567 kmeans 2       
+Dunn         0.3147 kmeans 11      
+Silhouette   0.3349 kmeans 7       

@@ -1,0 +1,578 @@
+[1] "baseline"
+[1] "single"
+[1] "euclidean"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9290  6.4929  9.4218 12.3508 15.2798 18.3754 18.3754 21.3044 24.2333 28.4206 31.9107
+             Dunn           0.6861  0.6587  0.6503  0.6444  0.6423  0.6342  0.6388  0.6248  0.6199  0.6079  0.6052
+             Silhouette     0.1681  0.1088  0.0600  0.0601  0.0490  0.0458  0.1179  0.0983  0.0950  0.0803  0.0743
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 2.9290 hierarchical 2       
+Dunn         0.6861 hierarchical 2       
+Silhouette   0.1681 hierarchical 2       
+
+[1] "baseline"
+[1] "single"
+[1] "manhattan"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9290  5.8579  8.9298 11.8587 14.7877 17.9528 21.8056 25.2679 28.4635 31.7591 34.6881
+             Dunn           0.6710  0.6298  0.6239  0.5989  0.5965  0.5924  0.5852  0.5798  0.5706  0.5695  0.5613
+             Silhouette     0.1960  0.1355  0.1056  0.0715  0.0202  0.0046  0.0362  0.0240  0.0119  0.0123  0.0110
+
+Optimal Scores:
+
+             Score Method       Clusters
+Connectivity 2.929 hierarchical 2       
+Dunn         0.671 hierarchical 2       
+Silhouette   0.196 hierarchical 2       
+
+[1] "baseline"
+[1] "complete"
+[1] "euclidean"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity  26.5329 29.7119 30.2869 35.7865 40.8536 47.4754 48.7254 48.7254 51.4877 51.7556 54.0556
+             Dunn           0.3995  0.4173  0.4286  0.4323  0.4636  0.4736  0.4743  0.4750  0.4940  0.5126  0.5323
+             Silhouette     0.0941  0.1427  0.1680  0.1755  0.1856  0.1802  0.1775  0.1799  0.1804  0.1813  0.1814
+
+Optimal Scores:
+
+             Score   Method       Clusters
+Connectivity 26.5329 hierarchical 2       
+Dunn          0.5323 hierarchical 12      
+Silhouette    0.1856 hierarchical 6       
+
+[1] "baseline"
+[1] "complete"
+[1] "manhattan"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity  33.1734 43.6349 46.4389 46.7611 47.0040 50.4536 50.9980 51.0980 51.3341 64.0194 66.2194
+             Dunn           0.4068  0.4107  0.4170  0.4304  0.4494  0.4608  0.4838  0.4888  0.5040  0.4439  0.4480
+             Silhouette     0.0808  0.1118  0.1070  0.1265  0.1514  0.1509  0.1795  0.1807  0.1810  0.1486  0.1479
+
+Optimal Scores:
+
+             Score   Method       Clusters
+Connectivity 33.1734 hierarchical 2       
+Dunn          0.5040 hierarchical 10      
+Silhouette    0.1810 hierarchical 10      
+
+[1] "baseline"
+[1] "average"
+[1] "euclidean"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9290  5.2329  8.1619 11.2575 14.8214 17.7504 19.8794 19.8794 20.5044 26.3623 26.3623
+             Dunn           0.6441  0.6211  0.6211  0.6211  0.6388  0.6388  0.6020  0.6421  0.6421  0.6549  0.6549
+             Silhouette     0.1414  0.1541  0.1281  0.1193  0.1476  0.1397  0.1508  0.2127  0.2086  0.1979  0.1901
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 2.9290 hierarchical 2       
+Dunn         0.6549 hierarchical 11      
+Silhouette   0.2127 hierarchical 9       
+
+[1] "baseline"
+[1] "average"
+[1] "manhattan"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9290  5.8579 15.0238 15.0238 17.7194 21.5722 21.5722 23.1095 25.7425 32.1599 34.9889
+             Dunn           0.6710  0.6298  0.5610  0.5610  0.5538  0.5538  0.5538  0.5669  0.5634  0.5261  0.5261
+             Silhouette     0.1960  0.1355  0.0950  0.0672  0.1018  0.1287  0.1106  0.1686  0.1889  0.1917  0.1869
+
+Optimal Scores:
+
+             Score Method       Clusters
+Connectivity 2.929 hierarchical 2       
+Dunn         0.671 hierarchical 2       
+Silhouette   0.196 hierarchical 2       
+
+[1] "pc 28"
+[1] "single"
+[1] "euclidean"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9290  5.8579  9.4357 12.5313 12.5313 15.4603 18.5004 21.4294 24.3583 24.6012 26.8591
+             Dunn           0.6670  0.6213  0.5722  0.5554  0.5446  0.5481  0.5307  0.5192  0.5141  0.5210  0.5577
+             Silhouette     0.2382  0.0967  0.1289  0.1226  0.2221  0.2103  0.2097  0.1765  0.1733  0.2665  0.3074
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 2.9290 hierarchical 2       
+Dunn         0.6670 hierarchical 2       
+Silhouette   0.3074 hierarchical 12      
+
+[1] "pc 28"
+[1] "single"
+[1] "manhattan"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9290  5.8579  8.9536 11.8825 14.8115 17.7405 21.5444 24.4734 27.4024 30.3313 33.2603
+             Dunn           0.7232  0.6547  0.5833  0.5704  0.5389  0.5376  0.5102  0.5071  0.5106  0.5031  0.4989
+             Silhouette     0.3182  0.2333  0.2071  0.1908  0.1770  0.1441  0.1100  0.1074  0.1007  0.0756  0.0585
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 2.9290 hierarchical 2       
+Dunn         0.7232 hierarchical 2       
+Silhouette   0.3182 hierarchical 2       
+
+[1] "pc 28"
+[1] "complete"
+[1] "euclidean"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   5.8008 26.0591 26.3020 29.3421 29.3421 44.1230 46.8520 46.8520 48.0464 48.0464 50.5040
+             Dunn           0.3440  0.2829  0.2884  0.3013  0.3142  0.2356  0.2394  0.2410  0.2457  0.2694  0.2744
+             Silhouette     0.2279  0.1940  0.2605  0.2581  0.2652  0.2606  0.2629  0.2676  0.2698  0.2711  0.2961
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 5.8008 hierarchical 2       
+Dunn         0.3440 hierarchical 2       
+Silhouette   0.2961 hierarchical 12      
+
+[1] "pc 28"
+[1] "complete"
+[1] "manhattan"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9290 49.7127 51.5357 55.1802 55.3468 61.9425 61.9425 64.9909 64.9909 67.5512 69.4679
+             Dunn           0.7232  0.2171  0.2203  0.2390  0.2405  0.2496  0.2524  0.2627  0.2649  0.2662  0.2738
+             Silhouette     0.3182  0.0563  0.0715  0.0922  0.0899  0.0912  0.1351  0.1752  0.1925  0.2087  0.2098
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 2.9290 hierarchical 2       
+Dunn         0.7232 hierarchical 2       
+Silhouette   0.3182 hierarchical 2       
+
+[1] "pc 28"
+[1] "average"
+[1] "euclidean"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   3.0401  5.9690  9.0647 10.7508 14.3286 17.2575 18.5004 18.7433 21.0012 23.9302 26.8591
+             Dunn           0.5057  0.5088  0.5088  0.5201  0.5307  0.5307  0.5307  0.5210  0.5444  0.5289  0.5418
+             Silhouette     0.2034  0.1554  0.1299  0.1815  0.2212  0.2174  0.2097  0.2898  0.3283  0.3130  0.3044
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 3.0401 hierarchical 2       
+Dunn         0.5444 hierarchical 10      
+Silhouette   0.3283 hierarchical 10      
+
+[1] "pc 28"
+[1] "average"
+[1] "manhattan"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9290  5.8579  8.9536 11.8825 14.8115 17.7405 20.6694 23.5984 26.5274 30.3853 35.8730
+             Dunn           0.7232  0.5703  0.5703  0.5704  0.5389  0.5071  0.5106  0.5106  0.5031  0.3774  0.3958
+             Silhouette     0.3182  0.2388  0.2071  0.1908  0.1770  0.1687  0.1496  0.1315  0.1007  0.0859  0.1137
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 2.9290 hierarchical 2       
+Dunn         0.7232 hierarchical 2       
+Silhouette   0.3182 hierarchical 2       
+
+[1] "pc 15"
+[1] "single"
+[1] "euclidean"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9290  6.2817  9.2107 10.0385 12.9675 14.2921 16.8599 17.1694 19.7889 22.3512 26.6611
+             Dunn           0.5818  0.5355  0.4876  0.5173  0.4872  0.4888  0.4824  0.4940  0.5197  0.4814  0.4751
+             Silhouette     0.2383  0.1852  0.1786  0.2758  0.2135  0.2415  0.1957  0.3235  0.3175  0.3169  0.3532
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 2.9290 hierarchical 2       
+Dunn         0.5818 hierarchical 2       
+Silhouette   0.3532 hierarchical 12      
+
+[1] "pc 15"
+[1] "single"
+[1] "manhattan"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9290  6.1913  9.1202 12.0492 14.9782 18.8337 20.6587 23.4210 23.7571 28.2516 32.1095
+             Dunn           0.5992  0.4809  0.4645  0.4560  0.4510  0.4280  0.4288  0.4512  0.4516  0.4263  0.4449
+             Silhouette     0.3347  0.1103  0.0829  0.0806  0.0597  0.0822  0.1428  0.1395  0.2173  0.2479  0.2431
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 2.9290 hierarchical 2       
+Dunn         0.5992 hierarchical 2       
+Silhouette   0.3347 hierarchical 2       
+
+[1] "pc 15"
+[1] "complete"
+[1] "euclidean"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   3.0567 22.5131 24.4917 24.6345 25.5317 28.4607 28.8218 33.3369 35.3786 35.6881 39.6571
+             Dunn           0.4582  0.1956  0.1984  0.2102  0.2320  0.2425  0.2478  0.2485  0.2531  0.2644  0.2696
+             Silhouette     0.2619  0.1882  0.2191  0.2850  0.3308  0.3271  0.3552  0.3557  0.3576  0.3533  0.3428
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 3.0567 hierarchical 2       
+Dunn         0.4582 hierarchical 2       
+Silhouette   0.3576 hierarchical 10      
+
+[1] "pc 15"
+[1] "complete"
+[1] "manhattan"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   8.2155 33.1310 36.0603 40.4504 41.5115 41.5115 42.3405 46.1984 46.8095 48.7603 48.7603
+             Dunn           0.3290  0.1629  0.1783  0.1816  0.1991  0.2019  0.2052  0.2097  0.2261  0.2279  0.2323
+             Silhouette     0.1932  0.1671  0.1978  0.2000  0.2057  0.1989  0.2273  0.2205  0.2361  0.2516  0.3230
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 8.2155 hierarchical 2       
+Dunn         0.3290 hierarchical 2       
+Silhouette   0.3230 hierarchical 12      
+
+[1] "pc 15"
+[1] "average"
+[1] "euclidean"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9290  5.9857  9.3385 12.2675 12.7198 15.3393 16.4099 19.2222 23.5321 23.7321 26.8040
+             Dunn           0.4876  0.4582  0.4800  0.4800  0.4930  0.4892  0.5163  0.4782  0.4751  0.4751  0.4060
+             Silhouette     0.2261  0.2481  0.2812  0.2715  0.3440  0.3308  0.3717  0.3664  0.3851  0.3684  0.3409
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 2.9290 hierarchical 2       
+Dunn         0.5163 hierarchical 8       
+Silhouette   0.3851 hierarchical 10      
+
+[1] "pc 15"
+[1] "average"
+[1] "manhattan"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9290 10.2159 13.1448 17.1278 22.8607 25.4147 28.5413 30.0413 30.2524 30.4190 34.9135
+             Dunn           0.4376  0.4159  0.4159  0.3478  0.3649  0.3649  0.3649  0.3649  0.3823  0.3823  0.4410
+             Silhouette     0.2702  0.2135  0.1682  0.1213  0.0900  0.1237  0.1606  0.1485  0.2276  0.2140  0.2456
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 2.9290 hierarchical 2       
+Dunn         0.4410 hierarchical 12      
+Silhouette   0.2702 hierarchical 2       
+
+
+
+[1] "som 10"
+[1] "single"
+[1] "euclidean"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   5.4183 10.4008 14.3754 15.9754 18.2698 20.9698 26.6798 32.0111 37.8286 41.1060 45.6349
+             Dunn           0.3460  0.3244  0.3128  0.3028  0.2897  0.2784  0.2564  0.2511  0.2488  0.2482  0.2459
+             Silhouette     0.1791  0.1267  0.1731  0.0070  0.0038 -0.0101  0.0368  0.1274  0.1092  0.0736  0.0497
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 5.4183 hierarchical 2       
+Dunn         0.3460 hierarchical 2       
+Silhouette   0.1791 hierarchical 2       
+
+[1] "som 10"
+[1] "single"
+[1] "manhattan"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   5.4516 10.4151 14.2242 15.7742 18.0365 20.7365 25.1361 30.8306 36.4857 40.3060 43.6683
+             Dunn           0.3385  0.3164  0.3162  0.3050  0.2923  0.2784  0.2507  0.2492  0.2486  0.2477  0.2435
+             Silhouette     0.1757  0.1239  0.1722  0.0097  0.0063 -0.0071 -0.0552 -0.0009 -0.0167  0.0786  0.0748
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 5.4516 hierarchical 2       
+Dunn         0.3385 hierarchical 2       
+Silhouette   0.1757 hierarchical 2       
+
+[1] "som 10"
+[1] "complete"
+[1] "euclidean"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity  17.6393 19.2393 21.4111 26.8294 38.2917 39.7917 44.8036 48.8016 52.8679 58.0143 60.0349
+             Dunn           0.2196  0.2380  0.2397  0.2603  0.2710  0.3000  0.3170  0.3217  0.3288  0.3418  0.3423
+             Silhouette     0.1705  0.2272  0.2597  0.2726  0.2886  0.3136  0.3019  0.2831  0.2802  0.2880  0.2986
+
+Optimal Scores:
+
+             Score   Method       Clusters
+Connectivity 17.6393 hierarchical 2       
+Dunn          0.3423 hierarchical 12      
+Silhouette    0.3136 hierarchical 7       
+
+[1] "som 10"
+[1] "complete"
+[1] "manhattan"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity  17.4663 19.0163 20.7992 26.2508 35.3484 40.1004 45.1552 46.7218 51.1770 56.3079 59.8603
+             Dunn           0.2070  0.2246  0.2291  0.2487  0.2667  0.2851  0.2881  0.3008  0.3158  0.3259  0.3303
+             Silhouette     0.1764  0.2343  0.2678  0.2768  0.2558  0.2954  0.2835  0.3071  0.2973  0.3075  0.3239
+
+Optimal Scores:
+
+             Score   Method       Clusters
+Connectivity 17.4663 hierarchical 2       
+Dunn          0.3303 hierarchical 12      
+Silhouette    0.3239 hierarchical 12      
+
+[1] "som 10"
+[1] "average"
+[1] "euclidean"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   3.0706  8.4889 14.1504 17.7889 22.7714 30.0373 35.5964 40.6083 45.7266 48.2611 53.4075
+             Dunn           0.3028  0.3028  0.2334  0.2401  0.2401  0.2814  0.3041  0.3086  0.3151  0.3208  0.3208
+             Silhouette     0.2120  0.2073  0.2016  0.2858  0.2782  0.2723  0.3223  0.3163  0.3070  0.3047  0.3140
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 3.0706 hierarchical 2       
+Dunn         0.3208 hierarchical 11      
+Silhouette   0.3223 hierarchical 8       
+
+[1] "som 10"
+[1] "average"
+[1] "manhattan"
+
+Clustering Methods:
+ hierarchical 
+
+Cluster sizes:
+ 2 3 4 5 6 7 8 9 10 11 12 
+
+Validation Measures:
+                                 2       3       4       5       6       7       8       9      10      11      12
+                                                                                                                  
+hierarchical Connectivity   2.9552  8.4067 14.2365 17.7401 27.8956 29.8484 35.4075 40.4623 45.6044 48.2528 53.3837
+             Dunn           0.3050  0.3050  0.2234  0.2274  0.2657  0.2667  0.2851  0.2909  0.3109  0.3109  0.3109
+             Silhouette     0.2194  0.2069  0.2007  0.2902  0.2787  0.2766  0.3274  0.3206  0.3117  0.3086  0.3183
+
+Optimal Scores:
+
+             Score  Method       Clusters
+Connectivity 2.9552 hierarchical 2       
+Dunn         0.3109 hierarchical 10      
+Silhouette   0.3274 hierarchical 8       
+
